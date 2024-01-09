@@ -10,6 +10,7 @@ import Product from "./Pages/Product/Product";
 import Account from "./Pages/Account/Account";
 import Login from "./Pages/Auth/Login";
 import { Link } from "react-router-dom";
+
 function App() {
   const [isActive, setActive] = useState(false);
   const toggleClass = () => {
@@ -26,7 +27,8 @@ function App() {
             <br />
             <br />
             <img src="../src\assets\Images\logo.png" width="180" className="p-4" alt="" />
-            
+
+            <img src="../src/assets/Images/logo.png" ></img>
             </span>
         </Link>
         <ul className="side-menu top">
