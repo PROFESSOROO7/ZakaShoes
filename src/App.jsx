@@ -26,9 +26,10 @@ function App() {
           <span className="text">
             <br />
             <br />
-            <img src="../src\assets\Images\logo.png" width="180" className="p-4" alt="" />
+            {/* <img src="../src\assets\Images\logo.png" width="180" className="p-4" alt="" /> */}
 
-            <img src="../src/assets/Images/logo.png" ></img>
+            {/* <img src="../src/assets/Images/logo.png" ></img> */}
+          <h1>Zaka Shoes</h1>  
             </span>
         </Link>
         <ul className="side-menu top">
